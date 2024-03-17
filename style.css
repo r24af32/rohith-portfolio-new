@@ -23,6 +23,7 @@ body {
     animation: animateStars 100s linear infinite;
     justify-content: center;
     align-items: center;
+    overflow: hidden ;
 }
 nav{
     background-color: transparent;
@@ -176,10 +177,11 @@ nav .nav li a:hover{
     width: 800px;
     display: flex;
     justify-content: center;
-    padding-left: 80px;
+    padding-left: 90px;
 }
 .photo{
-    width: 400px;
+    width: 330px;
+    height: 95%;
     padding-left: 0px;
 
 }
@@ -228,7 +230,7 @@ nav .nav li a:hover{
     0 0 100px #2ed3f4, 0 0 200px #2ed3f4;
 }
 .home-sci{
-    padding-left: 20px;
+    padding-left: 0px;
 }
 svg{
     display: inline-flex;
@@ -397,8 +399,8 @@ svg{
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 180px;
-    justify-content: space-between;
-    padding-left: 30px;
+    justify-content: space-evenly;
+    padding-left: 0px;
     
 }
 .feedback2{
@@ -407,7 +409,7 @@ svg{
     text-decoration: none;
     padding-top: 20px;
     padding-right: 400px;
-    padding-left: 60px;
+    padding-left: 240px;
 
 }
 .feedback2 h2{
@@ -417,7 +419,7 @@ svg{
     animation: neon .5000000s ease-in-out infinite
 }
 .feedback1{
-    padding-left: 60px;
+    padding-left: 0px;
 
 }
 .feedback1 h2{
@@ -439,5 +441,5 @@ svg{
     text-align: center;
     background: #5b5353;
     opacity: .2;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
 }
